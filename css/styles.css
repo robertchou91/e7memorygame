@@ -309,3 +309,41 @@ header {
         width: 55px;
     }
 } 
+
+
+@media only screen 
+  and (min-width: 370px) 
+  and (max-width: 767px) {
+
+    body {
+        background: url("../img/deckbackground.jpg") no-repeat center center fixed;
+        background-size: cover;
+        padding: 0 10%;
+        margin-top: 20%;
+    }
+
+    header {
+        font-size: 10px;
+    }
+
+    .overlay {
+        font-size: 25px;
+    }
+
+    h6 {
+        font-size: 15px;
+    }
+
+    /* .deck {
+        width: 90%;
+    } */
+
+    .deck .card {
+        height: 55px;
+        width: 55px;
+    }
+} 
+
+
+
+
