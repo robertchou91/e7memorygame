@@ -55,6 +55,9 @@ class MemoryGame {
 
     gameOver() {
         clearInterval(this.countdown);
+        this.cardsArr.forEach(card => {
+            card.classList.add("visible");
+        });
         document.getElementById("gameover").classList.add("visible");
     }
 
