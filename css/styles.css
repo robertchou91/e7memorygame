@@ -19,8 +19,6 @@ body {
     padding: 0 20%;
 }
 
-/* look over this 
-change overlay-text to overlay */
 .overlay {
     position: fixed;
     top: 0;
@@ -67,7 +65,6 @@ header {
     /* grid-gap: 10px; */
 }
 
-/* work more on here */
 .information {
     margin-bottom: 10px;
     padding: 10px;
@@ -89,8 +86,6 @@ header {
     color: #fff;
 }
 
-/* temp card neeed to look into the design
-    Also check perspective */
 .deck {
     padding: 20px 0;
     background-color: #050a13;
